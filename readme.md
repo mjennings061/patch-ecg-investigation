@@ -1,5 +1,5 @@
 # **Patch**
-Short spaced orthogonal lead investigation for patch-based ECG.
+Short spaced orthogonal lead investigation for patch-based ECG. The files in this repository contributed to several [Computing in Cardiology publications](https://scholar.google.com/citations?user=eHzaFo8AAAAJ&hl=en) as part of a PhD in Ulster University.
 
 ## **Structure**
 ### Data
@@ -7,6 +7,8 @@ The ECG data are from three sources:
 1. Horacek data located in 'BalloonBSPMdata.mat'. This is 352 node baseline/annotation data
 2. Kornreich BSPM data located in 'data_*.mat'. Three files with 352 node annotated beats
 3. STAFF 9-lead ECGs (V1-V6;I-III) in '/STAFF/*.mat' with annotations in 'ann.xls'
+
+Horacek and Kornreich are private, and can only be shared with permission from Ulster University. STAFF data is freely available on Physionet.
 
 ### Code
 1. patch_v6.m - Master file
